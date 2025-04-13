@@ -17,4 +17,4 @@ git push origin main             # push first time to remote
 4. git commit -m "Message"      # Write message to be commited
 5. git remote add origin "Github repo URL"      # Connect to your GitHub repo
 6. git branch -M main           # Change branch to main
-7. git push -u origin main
+7. git push -u origin main      # push code to github
