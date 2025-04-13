@@ -8,4 +8,13 @@ start folder/file-name           # open file inside folder
 
 git add file-name                # Allow git to track new file
 git commit -m "Message"          # commit message
-git push origin main             # push first time to remote  
+git push origin main             # push first time to remote
+
+// Steps to push code to new repository for first time
+1. Go to correct directory
+2. git init                     # Initialize the repo
+3. git add .                    # Add all files in this folder
+4. git commit -m "Message"      # Write message to be commited
+5. git remote add origin "Github repo URL"      # Connect to your GitHub repo
+6. git branch -M main           # Change branch to main
+7. git push -u origin main
