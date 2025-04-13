@@ -12,6 +12,8 @@ start folder-name/file-name            # Open file inside folder
 ## Git Commands
 
 ```bash
+git status                  # status of git
+git remote -v               # remote repository in use
 git add file-name           # Allow git to track the new file
 git commit -m "Message"     # Commit with a message
 git push origin main        # Push for the first time to remote
@@ -30,6 +32,13 @@ git push -u origin main                # Push code to GitHub:
 ```
 
 
+## fetch and merge changes from remote repo
+```bash
+git pull origin main
+git add .
+git commit -m ""
+git push
+```
 
 
 
