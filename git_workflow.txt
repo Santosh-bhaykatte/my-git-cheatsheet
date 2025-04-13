@@ -1,0 +1,11 @@
+"Git workflow" 
+
+echo "message" > file-name       # create new file in current directory
+mkdir folder-name                # create new folder inside current directory
+echo "message" > folder-name/file-name  # create new file inside new folder
+start file-name                  # open file in current directory
+start folder/file-name           # open file inside folder
+
+git add file-name                # Allow git to track new file
+git commit -m "Message"          # commit message
+git push origin main             # push first time to remote  
