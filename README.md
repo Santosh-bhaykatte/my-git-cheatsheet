@@ -40,6 +40,50 @@ git commit -m ""
 git push
 ```
 
+# Git Commands On Collaboration
 
+## Pull Latest Changes from Main
+```
+git checkout main
+git pull origin main
+```
 
+## Create & Switch to a New Feature Branch
+```
+git checkout -b branch-name
+```
 
+## Work on Your Code
+```
+cout<<"Hello World"<<endl;
+```
+
+## Stage & Commit Changes
+```
+git add .
+git commit -m " "
+```
+
+## Pull Main Again to Avoid Conflicts
+```
+git checkout main
+git pull origin main
+git checkout  branch-name
+git merge main
+```
+
+## Push Feature Branch to Remote
+```
+git push origin branch-name
+```
+
+## Merge Feature Branch into Main
+```
+git checkout main
+git merge branch-name
+```
+
+## Push Final Main to Remote
+```
+git push origin main
+```
